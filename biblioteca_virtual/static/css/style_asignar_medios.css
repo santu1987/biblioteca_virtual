@@ -1,0 +1,111 @@
+.texto-derecha
+{
+	text-align: right;
+}
+.cdr-title-2
+{
+	border:1px solid #ccc;
+	border-radius:3px 3px 0 0;
+	border-bottom:none;
+	background:#efefef;
+	overflow:hidden;
+}
+.align-right
+{
+	text-align: right;
+}
+.title-filter
+{
+	padding:5px;
+	margin-top: 2px;
+	font-weight:600;
+	font-size:1.3em;
+}
+.btn-fff
+{
+	background: #fff; border:1px solid #ccc;
+}
+.estilo_tabla2
+{
+	border:none;
+	padding:0;
+}
+.header_conf
+{
+	background:#efefef;
+	border:1px solid #CCC;
+	border-radius:3px 3px 0 0;
+}
+.footer_conf
+{
+	background:#efefef;
+	border:1px solid #CCC;
+	border-radius:0px 0px 3px 3px;
+}
+.left
+{
+	float:left;
+}
+.clear
+{
+	clear:both;
+}
+.top-medios
+{
+	margin-top: 2px;
+}
+#data-table{
+	table-layout: fixed;
+}
+.invisible{
+	display: none;
+}
+.visible{
+	display: block;
+}
+.estatus{
+  margin-top: 5px
+}
+#estatus_medio{
+  font-weight: bold;
+  font-size: 12pt;
+}
+/*---Bloque MediaQuery---*/
+/**/
+@media screen and (max-width: 519px){
+	.title-th
+	{
+		font-size:10pt;
+	}
+}
+@media screen and (max-width: 976px){
+	.tr_tabla
+	{
+		font-size: 10pt;
+	}
+	.th_tabla
+	{
+		font-size: 12pt;
+	}
+}
+@media screen and (max-width: 891px){
+	.tr_tabla
+	{
+		font-size: 9pt;
+	}
+	.th_tabla
+	{
+		font-size: 10pt;
+	}
+}
+@media screen and (max-width: 850px){
+	.tr_tabla
+	{
+		font-size: 7pt;
+	}
+	.th_tabla
+	{
+		font-size: 9pt;
+	}
+}
+/**/

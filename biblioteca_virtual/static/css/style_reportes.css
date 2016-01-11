@@ -1,0 +1,315 @@
+.recuadros1{
+	border:1px solid #CCC;
+	/*min-height:600px;*/
+	height: auto;
+  	border-radius: 0px 0px 3px 3px;
+   	text-align:justify;
+	padding-bottom:15px;
+}
+.recuadros2{
+	border:1px solid #CCC;
+	min-height:100px;
+	height: auto;
+	border-radius:3px;
+	text-align:justify;
+	padding-bottom:15px;
+	margin-bottom: 2px;
+}
+.labels_text
+{
+  font-weight: 600;
+}
+.separacion1
+{
+	margin-top:4px;
+}
+.frente3
+{
+	z-index: 2;
+}
+.frente12
+{
+	z-index: 12;
+}
+.btn-fff
+{
+	background: #fff; border:1px solid #ccc;
+}
+.padding0
+{
+	padding: 0;
+}
+.padding_left
+{
+	padding-left: 6px;
+}
+.input_time .select-tipos-rep
+{
+	position: relative; 
+	z-index: 100000;
+}
+.style0
+{
+	margin: 0 20px;
+}
+.tipo-reporte
+{
+	z-index: 1000;
+}
+.izquier
+{
+	float:right;
+}
+.cuerpo_encabezado_reportes
+{
+	padding: 5px;
+ 	margin-top: 2px;
+}
+.opcion_check
+{
+	cursor: pointer;
+}
+.left
+{
+	float:left;
+}
+.clear
+{
+	clear:both;
+}
+.title_table_modal
+{
+  font-size: 1.5em;
+  font-weight: bold;
+  color:#fff;
+}
+#menos_parametros:hover
+{
+  color: #b7ccfb;
+  cursor: pointer;
+}
+.text-size {
+  resize: none;
+  height: 70px;
+}  
+/*--- Estilos de administracion.html aplicados a reportes ---*/
+.cdr-panel-body{border:1px solid #BBB; border-radius:0 0 3px 3px; border-top:none; box-shadow:0px 2px 2px #CCC; }
+.cdr-title-2{border:1px solid #ccc;  border-radius:3px 3px 0 0; border-bottom:none; background:#efefef;overflow:hidden;}
+.cdr-title-3{border:1px solid #ccc;  border-radius:3px 3px 0 0; border-bottom:none; background:#2a72b5;overflow:hidden;}
+.title-filter
+{
+	padding:5px;
+	margin-top: 2px;
+}
+.title-filter h5{font-weight:600; font-size:1.3em;}
+#listado_tabla{
+	margin-top: 1%;
+}
+
+.bordes_parametros
+{
+	border-radius: 3px 3px 3px 3px;
+}
+/*--- --- */
+/*--- Estilos de corregir_articulos.html---*/
+.border-hidden{border-top:1px solid #ccc; margin-left:-10; width:106%;}
+/*--- ---*/
+/*-- Estilos de modal responsive---*/
+.modal-dialog {
+  position: relative;
+  width: auto;
+  max-width: 600px;
+  margin: 10px;
+  padding-top: 20px;
+}
+.modal-sm {
+  max-width: 300px;
+  /*margin-right: 10px;
+  margin-left: 10px;*/
+}
+.modal-lg {
+  /*max-width: 1800px;
+  margin-right: 10px;
+  margin-left: 10px;*/
+  max-width: 100%;
+}
+/*--- ---*/
+/*---Tabla de parametros de consulta ---*/
+.parametros_consulta
+{
+	border:1px solid #ccc; 
+	border-radius:0 0 3px 3px;
+	padding:0;
+}
+.parametros_consulta2
+{
+	border:none; 
+	padding:0;
+}
+.word-back
+{
+	word-wrap:break-word;
+}
+/*--- ---*/
+.adaptar_cuadro
+{
+	max-height: 450px;
+	overflow-x:hidden; 
+}
+.opciones_tildado
+{
+	padding:0px;
+}
+.th_padding0 
+{
+  padding: 0px 0px 0px 0px;
+  margin-right: 0px;
+  text-align: center;
+}
+.btn-excel
+{
+  float: right;
+  margin: 10px 10px;
+  font-size: 12pt;
+  width: 50;
+}
+.paginacion
+{
+  float: left;
+  width: 100%;
+  margin-top: 30px;
+}
+.inter-puntos
+{
+	display: none;
+}
+.header_conf
+{
+	background:#efefef;
+	border:1px solid #CCC;
+	border-radius:3px 3px 0 0;
+}
+.footer_conf
+{
+	background:#efefef;
+	border:1px solid #CCC;
+	border-radius:0px 0px 3px 3px;
+}
+/*-- Bloque de paginación de consulta reporte --*/
+.btn-filter{height:100%; padding:0;}
+.btn-filter div {height:34px; width:30px; padding:7px;}
+.btn-filter div span {font-size:1.5em;}
+.btn-filter:hover{color:#fff;} 
+.bf-right{float:right;}
+.bf-right div{float:right;}
+.bf-left{float:left;}
+.border-hidden{border-top:1px solid #ccc; margin-left:-10; width:106%;}
+.bor-left{border-left: 1px solid #ccc;}
+.bor-right{border-right: 1px solid #ccc;}	
+.cel-filter{background:#fff; height:100%; padding:5px; text-align:center; overflow:hidden;}
+.cel-filter .span-cel{font-weight:600; font-size:1.2em;}
+.cel-filterActive{background: #fff;  box-shadow:inset 0px 0px 1px #555; color:#fff; background: #bbb; }
+.color-filterLimit{color:#999; background: #fff;}
+.cdr-filter{height:35px; border:1px solid #ccc; padding:0; margin:6px 0; border-radius:3px; cursor: pointer;}
+/*-- --*/
+/*---Bloque de MediaQueries del modulo de Reportes---*/
+/*@media screen and (max-width: 932px){*/
+@media screen and (max-width: 972px){
+
+	.fonts-table-reports
+	{
+		font-size:10pt;
+	}
+	.fonts-table-reports2
+	{
+		font-size:10pt;
+	}
+}
+@media screen and (max-width: 642px){
+	.fonts-table-reports
+	{
+		font-size:8pt;
+	}
+	.fonts-table-header-reports
+	{
+		font-size:10pt;
+	}
+}
+@media screen and (max-width: 685px){
+	.fonts-table-reports
+	{
+		font-size:7pt;
+	}
+	.fonts-table-header-reports
+	{
+		font-size:8pt;
+	}
+}
+@media screen and (max-width: 524px){
+	.fonts-table-reports
+	{
+		font-size:5.6pt;
+	}
+	.fonts-table-header-reports
+	{
+		font-size:7pt;
+	}
+}
+@media screen and (max-width: 953px){
+	.opcion_check
+	{
+		font-size: 20pt;
+	}
+}
+@media screen and (max-width: 872px){
+	.fonts-table-header-reports2{
+		font-size:14;
+	}
+	.fonts-table-reports2{
+		font-size: 10;
+	}
+	.opcion_check{
+		font-size: 14pt;
+	}
+	.inter-puntos
+	{
+		display: block;
+	}
+	.bloque2-tbl
+	{
+		display: none;
+	}
+}
+@media screen and (max-width:786px){
+	.fonts-table-reports2{
+		font-size: 8pt;
+	}
+	.opcion_check{
+		font-size: 14pt;
+	}
+	#list2{
+		padding: 0px;
+		width:100%;
+	}
+	#contenedor_tabla3
+	{
+		overflow-x:scroll; 
+	}
+	.inter-puntos
+	{
+		display: block;
+	}
+	.bloque2-tbl
+	{
+		display: none;
+	}
+}
+/*-- ---*/
+/*-- --*/
+/*--Para bloque de tabla --*/
+.contenedor_tabla2 {width:100%;overflow:auto;}
+.th-l,.td-l
+{
+	padding: 10px;
+}
+/*-- --*/

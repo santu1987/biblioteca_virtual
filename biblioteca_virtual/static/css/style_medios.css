@@ -1,0 +1,64 @@
+.cdr-title-2
+{
+	border:1px solid #ccc;
+	border-radius:3px 3px 0 0;
+	border-bottom:none;
+	background:#efefef;
+	overflow:hidden;
+}
+.align-right
+{
+	text-align: right;
+}
+.title-filter
+{
+	padding:5px;
+	margin-top: 2px;
+	font-weight:600;
+	font-size:1.3em;
+}
+.btn-fff
+{
+	background: #fff; border:1px solid #ccc;
+}
+.header_conf
+{
+	background:#efefef;
+	border:1px solid #CCC;
+	border-radius:3px 3px 0 0;
+}
+.footer_conf
+{
+	background:#efefef;
+	border:1px solid #CCC;
+	border-radius:0px 0px 3px 3px;
+}
+.left
+{
+	float:left;
+}
+.clear
+{
+	clear:both;
+}
+.opcion_check
+{
+	cursor: pointer;
+}
+.texto-derecha
+{
+	text-align: right;
+}
+.padding0{
+  padding-left: 0;
+  padding-right: 0;
+}
+/*---Bloque MediaQuery---*/
+/**/
+@media screen and (max-width: 519px){
+	.title-th
+	{
+		font-size:10pt;
+	}
+}
+/**/
